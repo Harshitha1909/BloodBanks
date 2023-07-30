@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient( rgba(255, 254, 254, 0.594)40%,rgba(255, 254, 254, 0.594)40%), url(1.jpg);    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 30px;
+    
+}
+.icon{
+    width: 40px;
+    float: left;
+    height: 50px;
+}
+
+.fa-solid{
+    color: #f50505;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: -55px;
+    margin-top: -55px;
+    
+}
+
+.icon{
+    width: 40px;
+    float: left;
+    height: 50px;
+}
+
+.logo{
+    color: #f50505;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 60px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+
+.menu{
+    width: 350px;
+    float:right;
+    height: 70px;
+}
+
+ul{
+    float :right;
+    display:inline-flex;
+    justify-content: center;
+    align-items: right;
+    margin-left: 50%;
+    margin-right: -50%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 85px;
+    margin-right: -10px;
+    margin-top: 27px;
+    font-size: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #f50505;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+ul li a:hover{
+    color: rgba(67, 175, 76, 0.991);
+}
+
+body
+{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.Heading
+{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: -70px;
+  color: #030000;
+}  
+.cities {
+    margin-top: 10%;
+    margin-bottom: -8%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ .city {
+    color: #f50505;
+    font-display: 10px;
+    width: 25%;
+    margin: 10px;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #c20303;
+    transition: 0.4s ease;
+    
+  }
+.cities .city:hover
+{
+  color:beige;
+  background-color: #ce3a3a;
+  border: 2px solid #fff;
+  
+
+}
+  
+  h2 {
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  p {
+    text-align: justify;
+  }
